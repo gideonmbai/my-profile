@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(26, 25, 25);
+  text-transform: uppercase;
+  text-align: center;
+}
+.title {
+  color: rgb(231, 231, 231);
+  letter-spacing: 1px;
+}
+.subtitle {
+  color: rgb(0, 255, 170);
+}
+#main-paragraph {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+#profile-photo {
+  width: 500px;
+  min-height: 600px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-image: url('./img-07/img-07.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#profile-photo--descritption {
+  position: absolute;
+  bottom: 0;
+  background-color: #d16abb;
+  padding: 2rem;
+}
+
+.photo-footer__title {
+  color: #333;
+}
+
+.photo-footer__paragraph {
+  color: #fff;
+  line-height: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
